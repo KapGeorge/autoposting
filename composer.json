@@ -1,13 +1,14 @@
 {
-  "name": "auto-posting-project",
+  "name": "auto-posting/project",
   "description": "A project that combines PHP and Python applications.",
   "require": {
     "php": "^7.4 || ^8.0",
-    "monolog/monolog": "^2.0"
+    "monolog/monolog": "^2.0",
+    "x-fran/g-trends": "^4.0"
   },
   "autoload": {
     "psr-4": {
-      "App\\": "src/php/"
+      "App\\": "dist/"
     }
   },
   "require-dev": {
