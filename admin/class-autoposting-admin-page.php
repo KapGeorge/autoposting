@@ -36,7 +36,7 @@ class Autoposting_Admin_Page {
                         </td>
                     </tr>
                     <tr valign="top">
-                        <th scope="row">API key</th>
+                        <th scope="row">API key for AI tool</th>
                         <td>
                             <input type="text" name="autoposting_api_key" value="<?php echo esc_attr(get_option('autoposting_api_key')); ?>" size="50" />
                         </td>
